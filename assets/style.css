@@ -6,6 +6,10 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+img {
+    aspect-ratio: attr(width) / attr(height);/* aj aspect-ratio */
+}
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -31,7 +35,7 @@ body {
 
 .nav li {
 	padding-inline: 10px;
-	cursor: pointer; /* modif div>section et id */
+	cursor: pointer; /* aj cursor */
 }
 
 .nav a {
@@ -93,9 +97,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -355,5 +356,8 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	.nav ul {
+		font-size: 13px;/*modif size*/
+	}	
 }
 
